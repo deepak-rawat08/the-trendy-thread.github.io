@@ -1,0 +1,294 @@
+/* media queries */
+
+@media screen and (max-width: 1418px) {
+  #namesection img {
+    width: 500px;
+    height: 330px;
+    top: 100px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #the {
+    margin-left: 0px;
+  }
+  #trendy {
+    margin-left: 55px;
+  }
+
+  #store {
+    margin-left: 140px;
+  }
+
+  .items:nth-child(1) {
+    display: none;
+  }
+  #firstsection {
+    height: 45vh;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #namesection img {
+    width: 400px;
+    height: 270px;
+    top: 130px;
+    right: 80px;
+  }
+  #namesection h1 {
+    font-size: 4rem;
+  }
+  #para {
+    width: 600px;
+  }
+  #para p {
+    padding-right: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #menu li {
+    width: 100%;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  .h-nav {
+    height: 54px;
+  }
+  .v-class {
+    opacity: 0;
+  }
+  #menu li a {
+    font-size: 20px;
+  }
+  #navbar h2 {
+    padding-left: 35px;
+    position: absolute;
+    top: 14px;
+  }
+  #btn input {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+  }
+  .items:nth-child(2) {
+    display: none;
+  }
+  #namesection img {
+    width: 350px;
+    height: 230px;
+    top: 130px;
+    right: 45px;
+  }
+  #the {
+    position: relative;
+    right: 40px;
+  }
+  #trendy {
+    margin-left: 15px;
+  }
+
+  #store {
+    margin-left: 90px;
+  }
+  #firstsection {
+    height: 45vh;
+  }
+  #menu {
+    flex-direction: column;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media screen and (max-width: 860px) {
+  #namesection img {
+    display: none;
+  }
+  #firstsection {
+    height: 35vh;
+  }
+  .items:nth-child(2) {
+    display: block;
+  }
+  .photo {
+    flex-wrap: wrap;
+  }
+  #both {
+    flex-direction: column;
+  }
+  #information {
+    display: block;
+    margin: auto;
+  }
+  #secondsection h1 {
+    font-size: 2.4rem;
+  }
+  .box h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .last {
+    font-size: 1rem;
+  }
+  #lastsection {
+    flex-direction: column;
+  }
+  #para {
+    display: contents;
+  }
+  #para h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .items img {
+    width: 190px;
+    height: 180px;
+  }
+  .items {
+    height: auto;
+    width: auto;
+  }
+  .photo {
+    justify-content: center;
+  }
+  .allproducts input {
+    font-size: 1em;
+    padding: 3px 5px;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbar h2 {
+    padding-left: 5px;
+    font-size: 1.3rem;
+  }
+  .items img {
+    width: 150px;
+    height: 140px;
+  }
+  #btn {
+    margin-right: 5px;
+  }
+  #btn input {
+    font-size: 1rem;
+  }
+  #the {
+    position: relative;
+    right: 70px;
+  }
+  #trendy {
+    position: relative;
+    right: 40px;
+  }
+  #store {
+    margin-left: 40px;
+  }
+  #namesection h1 {
+    font-size: 3.5rem;
+  }
+  #firstsection {
+    height: 25vh;
+    padding-bottom: 30px;
+  }
+  .details h3 {
+    font-size: 13px;
+  }
+  .details h4 {
+    font-size: 10px;
+  }
+  .details h5 {
+    font-size: 10px;
+  }
+  .photo {
+    justify-content: space-evenly;
+  }
+  .allproducts input {
+    font-size: 13px;
+  }
+  #contact input {
+    margin: 5px 30px;
+    padding: 2px 40px;
+    font-size: 1rem;
+  }
+  #send input {
+    font-size: 1rem;
+    padding: 0px 10px;
+  }
+  .support h2 {
+    font-size: 20px;
+  }
+  .support p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  #thirdsection h2 {
+    font-size: 20px;
+    padding: 6px 0px;
+  }
+  #contact input {
+    margin: 5px 20px;
+    padding: 2px 10px;
+    font-size: 12px;
+  }
+  #send input {
+    font-size: 14pxrem;
+    padding: 1px 6px;
+  }
+  #lastsection {
+    padding-left: 15px;
+  }
+  #para h2 {
+    font-size: 20px;
+  }
+  #para p {
+    font-size: 14px;
+  }
+  #the {
+    right: 80px;
+  }
+  #trendy {
+    margin-left: 2px;
+  }
+
+  #store {
+    margin-left: 35px;
+  }
+  #namesection h1 {
+    font-size: 2.6rem;
+  }
+  #firstsection {
+    height: 20vh;
+    bottom: 50px;
+  }
+  #navbar h2 {
+    padding-left: 0px;
+    font-size: 1.1rem;
+  }
+  #btn input {
+    font-size: 12px;
+  }
+  #secondsection h1 {
+    font-size: 1.8rem;
+  }
+  .box h2 {
+    font-size: 1.4rem;
+  }
+  .last h2 {
+    font-size: 20px;
+  }
+  #foot h4 {
+    font-size: 10px;
+  }
+}
